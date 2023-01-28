@@ -6,7 +6,6 @@ body {
     margin: 0;/*ระยะขอบ*/
     padding: 0; /*ขยายขอบ*/
 }
-
 nav{
     display: flex;
     flex-direction: column;
@@ -24,9 +23,6 @@ nav{
     font-size: 30px;
     display: inline-block; /*เรียงกันแนวนอนและมีพื้นที่ด้านใน ตามที่เรากำหนด */
 }
-
-
-
 ul {
     flex-direction: column;
     justify-content: center;
@@ -54,9 +50,11 @@ ul li a {
 ul li:first-child{
     margin-top: 0;
 }
+
 ul li:hover{
     opacity:0.5 ;
 }
+
 .active{
     display: flex;
 }
@@ -81,7 +79,7 @@ ul li:hover{
         display: inline-block;
         margin: 0 70px 0 0 ;
         text-align:  left;
-        border-bottom-style:none ;
+        border-bottom-style: none ;
         padding: 0;
 
     }
