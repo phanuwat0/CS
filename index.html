@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/6f34ba011f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <!-- Navnbar -->
     <nav>
         <span class="nav-toggle" id="js-nav-toggle">
             <i class="fas fa-bars"></i>
@@ -17,26 +17,26 @@
             <img src = "./img/logo.png" height="80px">
         </div>
         
-        <ul id="js-menu" >
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Cart</a></li>
-
+        <ul id="js-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flower.html">Flower</a></li>
+            <li><a href="history.html">Meaning</a></li>
         </ul>
-    
-        
     </nav>
 
+
+    <!-- hero -->
     <div class="hero-image">
         <div class="hero-text">
             <h1 style="font-size:50px">Flower</h1>
-            <p>นอกจากจะสวยงาม เป็นสีสันของโลกใบนี้ ดอกไม้ยังสร้างความสดชื่นให้แก่ผู้พบเห็นทั้งรูปทรง และความหอมชื่นใจ นอกจากนี้แล้ว
+            <p>นอกจากดอกไม้จะสวยงาม เป็นสีสันของโลกใบนี้ ดอกไม้ยังสร้างความสดชื่นให้แก่ผู้พบเห็นทั้งรูปทรง และความหอมชื่นใจ นอกจากนี้แล้ว
             ดอกไม้ยังมีความหมายพิเศษๆอีกด้วย สำหรับคุณที่ชื่นชอบดอกไม้ ทั้งผู้ให้และผู้รับ ลองมาดูความหมายของดอกไม้กัน
             เพื่อให้ดอกไม้สวยๆเหล่านี้ เป็นความหมายดีๆ ที่คุณต้องการจะบอกใครสักคนที่พิเศษและแตกต่าง</p>
-            <button>SEE MORE</button>
+            <button  onclick="document.location='flower.html'">SEE MORE</button>
         </div>
     </div>
 
+    <!-- footer -->
     <div class="footer">
         <div class="col-1">
             <h3>LINK</h3>
@@ -45,9 +45,9 @@
             <a href="#">Cart</a>
         </div>
         <div class="col-2">
-            <h3>NEWSLETTER</h3>
+            <h3>What is Your<br>favorite flower</h3>
             <form>
-                <input type="text" placeholder="enter something">
+                <input type="text" placeholder="Flower">
                 <br>
                 <button type="submit">ENTER</button>
             </form>

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+
+body {
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    height: 100vh;
+    background: #F8F4EE;
+    margin: 0;
+    /*ระยะขอบ*/
+    padding: 0;
+    /*ขยายขอบ*/
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background: #332528;
+    justify-content: center;
+    align-items: center;
+    /*จัดกึ่งกลางแนวตั้งแนวนอน */
+    position: relative;
+    font-family: 'Sree Krushnadevaraya';
+    font-style: normal;
+    font-size: 15px;
+
+
+}
+
+.nav-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    display: inline-block;
+    /*เรียงกันแนวนอนและมีพื้นที่ด้านใน ตามที่เรากำหนด */
+    color: #fff;
+}
+
+
+ul {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    display: none;
+    width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 15 px;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+    border-bottom-style: groove;
+    border-bottom-color: #f0f;
+    border-bottom-width: 1px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fffdfd;
+}
+
+ul li:first-child {
+    margin-top: 0;
+}
+
+ul li:hover {
+    opacity: 0.5;
+}
+
+.active {
+    display: flex;
+}
+
+
+
+
+
+@media screen and (max-width: 2000px) {
+    .container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        display: flex;
+        /* width: 1040px;
+        justify-content: space-evenly;
+        flex-wrap: wrap; */
+    }
+
+    .card {
+        flex-direction: row;
+        justify-content: center;
+        margin: 100px;
+        background-color: #332528;
+        border-radius: 28px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        width: 347px;
+    }
+
+    .card-header img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 1px 5px 1px 1px;
+        height: 30px;
+        /* min-height: 10px; */
+    }
+
+    .content {
+        
+        position: absolute;
+        /* width: 10px; */
+        height: 80px;
+        margin: 0;
+    }
+
+    .content a, h1 {
+        height: 50px;
+    }
+
+    .content a,h1 {
+        text-decoration: none;
+        color: white;
+        margin: 0;
+        font-family: 'Sree Krushnadevaraya', serif;
+    }
+
+    .content a,  h1 {
+        font-size: calc(100% + 0.8vmin);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    nav {
+            height: 100px;
+            flex-direction: row;
+            width: 100%;
+            font-size: 25px;
+    
+        }
+    
+        .log img {
+            width: 70%;
+            height: 70%;
+        }
+    
+        .logo {
+            padding-left: 30px;
+            padding-right: 20px;
+            margin: 0;
+    
+    
+        }
+    
+    
+        ul {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            flex-direction: row;
+        }
+    
+        ul li {
+            display: inline-block;
+            margin: 0 70px 0 0;
+            text-align: left;
+            border-bottom-style: none;
+            padding: 0;
+    
+        }
+    
+        .nav-toggle {
+            display: none;
+        }
+
+    body {
+        background-color: F8F4EE;
+        font-size: 120%;
+        color: black;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* width: 1040px;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    }
+
+    .card {
+        margin: 100px;
+        background-color: #332528;
+        border-radius: 28px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        width: 347px;
+    }
+
+    .card-header img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 1px 5px 1px 1px;
+        height: 30px;
+        /* min-height: 10px; */
+    }
+
+    .content {
+        position: absolute;
+        /* width: 10px; */
+        height: 100px;
+        margin: 20px;
+    }
+
+    .content a,  h1 {
+        height: 50px;
+    }
+
+    .content a,h1 {
+        text-decoration: none;
+        color: white;
+        margin: 0;
+        font-family: 'Sree Krushnadevaraya', serif;
+    }
+
+    
+}
